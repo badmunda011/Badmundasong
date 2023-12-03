@@ -6,7 +6,7 @@ from Royalkifeelings import bot as Royalboyamit
 
 @Royalboyamit.on_message(filters.command(["ping"], ["/", ".", "!"]))
 async def ping(Client, message):
-    photo=f"https://graph.org/file/f26f1b65bd824a87909a0.jpg",
+    photo=f"https://telegra.ph/file/848074621a00e22db32f1.jpg",
     start = datetime.now()
     loda = await message.reply_text("**» BAD MUSIC**")
     end = datetime.now()
